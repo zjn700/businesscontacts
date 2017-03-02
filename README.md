@@ -1,27 +1,55 @@
-# Businesscontacts
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
+     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
+    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
+    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
+    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
+     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
+    ----------------------------------------------------------------- 
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run 
 
-## Code scaffolding
+    ng serve --host 0.0.0.0 --port 8080 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+solved it for me
 
-## Build
+//https://community.c9.io/t/angular-2-angular-cli-problem/9684/3
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+git to bitbucket - use https
 
-## Running unit tests
+zjn700:~/workspace/businesscontacts (master) $ git remote add bc-origin https://zjn700@bitbucket.org/zjn700/businesscontacts.git
+zjn700:~/workspace/businesscontacts (master) $ git push -u bc-origin --all                      Password for 'https://zjn700@bitbucket.org': 
+Counting objects: 51, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (47/47), done.
+Writing objects: 100% (51/51), 15.75 KiB | 0 bytes/s, done.
+Total 51 (delta 8), reused 0 (delta 0)
+To https://bitbucket.org/zjn700/businesscontacts.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from bc-origin.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+// http://stackoverflow.com/questions/16074832/cannot-push-to-git-repository-on-bitbucket
 
-## Running end-to-end tests
+github:
+//echo "# businesscontacts" >> README.md
+//git init
+//git add README.md
+//git commit -m "first commit"
+git remote add origin https://github.com/zjn700/businesscontacts.git
+git push -u origin master
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
-## Further help
+git add *
+git commit -m "Commit message"
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+then push
+
+
+Hi there! Welcome to Cloud9 IDE!
+
+To get you started, create some files, play with the terminal,
+or visit http://docs.c9.io for our documentation.
+If you want, you can also go watch some training videos at
+http://www.youtube.com/user/c9ide.
+
+Happy coding!
+The Cloud9 IDE team
